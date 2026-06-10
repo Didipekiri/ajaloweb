@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Balai Taman Nasional Aketajawe Lolobata</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="Logo/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,300&family=Playfair+Display:ital,wght@0,700;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── MOBILE MENU ── -->
+  <div class="mobile-menu" id="mobileMenu" role="dialog" aria-modal="true" aria-label="Navigation">
+    <a href="#screens">Beranda</a>
+    <a href="#features">Profil</a>
+    <a href="#pricing">Layanan</a>
+    <a href="#testimonials">Wisata Alam</a>
+    <a href="#faq">Kontak</a>
+    <a href="#location">Lokasi</a>
+    <a href="#" class="mobile-cta btn-primary">E-Ticketing</a>
+  </div>
+
+  <!-- ── NAVBAR ── -->
+  <nav class="nav" id="mainNav" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo-group">
+        <img src="Logo/Kementrian_logo.png" alt="Logo Kementrian" class="nav-img-logo">
+        <img src="Logo/Ajalo_logo.png" alt="Logo Ajalo" class="nav-img-logo">
+      </a>
+      <ul class="nav-links" role="list">
+        <li><a href="#screens">Beranda</a></li>
+        <li><a href="#features">Profil</a></li>
+        <li><a href="#pricing">Layanan</a></li>
+        <li class="has-dropdown">
+          <a href="#testimonials">Wisata Alam <i class="fas fa-chevron-down dropdown-icon"></i></a>
+          <ul class="dropdown">
+            <li><a href="#">Resor Tayawi</a></li>
+            <li><a href="#">Resor Akejawi</a></li>
+          </ul>
+        </li>
+        <li><a href="#faq">Kontak</a></li>
+        <li><a href="#location">Lokasi</a></li>
+      </ul>
+      <button class="nav-hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section class="hero">
+    <div class="hero-video-bg">
+      <video autoplay muted loop playsinline>
+        <source src="video_background/hero-bg.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div class="container">
+      <div class="hero-inner">
+        <div class="hero-content">
+          <div class="hero-badge reveal">
+            <div class="hero-badge-dot">✦</div>
+            <span>Kawasan Konservasi <strong>Halmahera</strong></span>11
+          </div>
+          <h1 class="hero-title reveal reveal-delay-1">
+            Balai Taman Nasional<br><em>Aketajawe Lolobata</em>
+          </h1>
+          <p class="hero-sub reveal reveal-delay-2">
+            Melestarikan kekayaan hayati di jantung Maluku Utara. Aketajawe Lolobata adalah rumah bagi spesies endemik langka, hutan hujan tropis yang murni, dan keindahan alam yang tak terbatas.
+          </p>
+          <div class="hero-actions reveal reveal-delay-3">
+            <a href="#testimonials" class="btn-primary-lg">
+              Jelajahi Wisata
+              <span class="btn-arrow">→</span>
+            </a>
+            <a href="#features" class="btn-outline-lg">
+              <span>▶</span> Mengenal Balai
+            </a>
+          </div>
+          <div class="hero-trust reveal reveal-delay-4">
+            <div class="trust-item">
+              <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+              167.300 Hektar
+            </div>
+            <div class="trust-divider"></div>
+            <div class="trust-item">
+              <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/></svg>
+              Sofifi, Maluku Utara
+            </div>
+            <div class="trust-divider"></div>
+            <div class="trust-item">
+              <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+              Surganya Burung Endemik
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual reveal reveal-delay-2">
+          <div class="hero-dashboard">
+            <div class="dashboard-bar">
+              <div class="db-dot"></div><div class="db-dot"></div><div class="db-dot"></div>
+            </div>
+            <div class="dashboard-body">
+              <div class="db-header">
+                <div class="db-title">Statistik Kawasan</div>
+                <div class="db-tag">Live</div>
+              </div>
+              <div class="db-chart">
+                <div class="db-bar" style="height:35%"></div>
+                <div class="db-bar" style="height:55%"></div>
+                <div class="db-bar" style="height:42%"></div>
+                <div class="db-bar active" style="height:75%"></div>
+                <div class="db-bar" style="height:60%"></div>
+                <div class="db-bar active" style="height:88%"></div>
+                <div class="db-bar" style="height:70%"></div>
+                <div class="db-bar active" style="height:92%"></div>
+              </div>
+              <div class="db-stats">
+                <div class="db-stat">
+                  <div class="db-stat-val">211<span style="font-size:.9rem;color:var(--accent)">+</span></div>
+                  <div class="db-stat-label">Jenis Burung</div>
+                  <div class="db-stat-change">+24 Endemik</div>
+                </div>
+                <div class="db-stat">
+                  <div class="db-stat-val">167<span style="font-size:.9rem;color:var(--accent)">k</span></div>
+                  <div class="db-stat-label">Luas (Ha)</div>
+                  <div class="db-stat-change">Total Area</div>
+                </div>
+                <div class="db-stat">
+                  <div class="db-stat-val">2<span style="font-size:.9rem;color:var(--accent)"> Blok</span></div>
+                  <div class="db-stat-label">Aketajawe & Lolobata</div>
+                  <div class="db-stat-change">Kawasan Utama</div>
+                </div>
+              </div>
+            </div>
+          </div>
+            </div>
+          </div>
+          <div class="hero-float-badge-2">
+            <div class="float-badge-2-val">↑ 100%</div>
+            <div class="float-badge-2-label">Komitmen Pelestarian</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── MITRA TICKER ── -->
+  <div class="ticker-section">
+    <div class="ticker-label">Mitra Strategis & Kolaborasi</div>
+    <div class="ticker-track-wrap">
+      <div class="ticker-track">
+        <div class="ticker-item"><a href="https://brin.go.id/" target="_blank" rel="noopener noreferrer"><img src="logo_mitra/Logo_BRIN.png" alt="BRIN"></a></div>
+        <div class="ticker-dot"></div>
+        <div class="ticker-item"><a href="https://www.antam.com/id" target="_blank" rel="noopener noreferrer"><img src="logo_mitra/antam.png" alt="PT ANTAM Tbk"></a></div>
+        <div class="ticker-dot"></div>
+        <div class="ticker-item"><a href="https://erp-nka.nti.co.id/" target="_blank" rel="noopener noreferrer"><img src="logo_mitra/PT-Nusa-Karya-Arindo.png" alt="PT Nusa Karya Arindo"></a></div> 
+        <div class="ticker-dot"></div>
+        <div class="ticker-item"><a href="https://sumberdayaarindo.com/" target="_blank" rel="noopener noreferrer"><img src="logo_mitra/Logo_PT_Sumber_Daya_Arindo.png" alt="PT Sumber Daya Arindo"></a></div>
+        <div class="ticker-dot"></div>
+        <div class="ticker-item"><a href="https://unkhair.ac.id/" target="_blank" rel="noopener noreferrer"><img src="logo_mitra/Logo Universitas Khairun.png" alt="Universitas Khairun"></a></div>
+        <div class="ticker-dot"></div>
+        <div class="ticker-item"><a href="https://uniera.ac.id/" target="_blank" rel="noopener noreferrer"><img src="logo_mitra/Logo_Universitas_Halmahera.png" alt="Universitas Halmahera"></a></div>
+        <div class="ticker-dot"></div>
+        <div class="ticker-item"><a href="https://univ-nuku.ac.id/" target="_blank" rel="noopener noreferrer"><img src="logo_mitra/Logo_Universitas_NUKU_Tidore.png" alt="Universitas NUKU Tidore"></a></div>
+        <div class="ticker-dot"></div>
+        <!-- Duplicate for loop -->
+        <div class="ticker-item"><a href="https://brin.go.id/" target="_blank" rel="noopener noreferrer"><img src="logo_mitra/Logo_BRIN.png" alt="BRIN"></a></div>
+        <div class="ticker-dot"></div>
+        <div class="ticker-item"><a href="https://www.antam.com/id" target="_blank" rel="noopener noreferrer"><img src="logo_mitra/antam.png" alt="PT ANTAM Tbk"></a></div>
+        <div class="ticker-dot"></div>
+        <div class="ticker-item"><a href="https://erp-nka.nti.co.id/" target="_blank" rel="noopener noreferrer"><img src="logo_mitra/PT-Nusa-Karya-Arindo.png" alt="PT Nusa Karya Arindo"></a></div> 
+        <div class="ticker-dot"></div>
+        <div class="ticker-item"><a href="https://sumberdayaarindo.com/" target="_blank" rel="noopener noreferrer"><img src="logo_mitra/Logo_PT_Sumber_Daya_Arindo.png" alt="PT Sumber Daya Arindo"></a></div>
+        <div class="ticker-dot"></div>
+        <div class="ticker-item"><a href="https://unkhair.ac.id/" target="_blank" rel="noopener noreferrer"><img src="logo_mitra/Logo Universitas Khairun.png" alt="Universitas Khairun"></a></div>
+        <div class="ticker-dot"></div>
+        <div class="ticker-item"><a href="https://uniera.ac.id/" target="_blank" rel="noopener noreferrer"><img src="logo_mitra/Logo_Universitas_Halmahera.png" alt="Universitas Halmahera"></a></div>
+        <div class="ticker-dot"></div>
+        <div class="ticker-item"><a href="https://univ-nuku.ac.id/" target="_blank" rel="noopener noreferrer"><img src="logo_mitra/Logo_Universitas_NUKU_Tidore.png" alt="Universitas NUKU Tidore"></a></div>
+        <div class="ticker-dot"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── GALERI ── -->
+  <section class="carousel-section" id="screens">
+    <div class="container">
+      <div class="carousel-header">
+        <div class="section-label reveal">Galeri Alam</div>
+        <h2 class="section-title reveal reveal-delay-1">Pesona Endemik<br><em>Halmahera</em></h2>
+        <p class="section-sub reveal reveal-delay-2">Keanekaragaman hayati yang unik, mulai dari Burung Bidadari hingga satwa langka lainnya yang hanya ada di sini.</p>
+      </div>
+    </div>
+    <div class="carousel-zoom">
+      <button class="zoom-btn" id="zoomOut" aria-label="Zoom out">−</button>
+      <div class="zoom-pips" id="zoomPips"></div>
+      <button class="zoom-btn" id="zoomIn" aria-label="Zoom in">+</button>
+    </div>
+    <div class="carousel-stage" id="carouselStage">
+      <div class="carousel-track" id="carouselTrack">
+        <div class="phone-card" data-pos="left2" data-index="0">
+          <div class="phone-shell"><div class="phone-screen"><img src="foto_burung/burung1.jpeg" alt="Burung Aketajawe 1" loading="lazy" /></div></div>
+        </div>
+        <div class="phone-card" data-pos="left1" data-index="1">
+          <div class="phone-shell"><div class="phone-screen"><img src="foto_burung/burung2.jpeg" alt="Burung Aketajawe 2" loading="lazy" /></div></div>
+        </div>
+        <div class="phone-card" data-pos="center" data-index="2">
+          <div class="phone-shell"><div class="phone-screen"><img src="foto_burung/burung3.jpeg" alt="Burung Aketajawe 3" loading="lazy" /></div></div>
+        </div>
+        <div class="phone-card" data-pos="right1" data-index="3">
+          <div class="phone-shell"><div class="phone-screen"><img src="foto_burung/burung4.jpeg" alt="Burung Aketajawe 4" loading="lazy" /></div></div>
+        </div>
+        <div class="phone-card" data-pos="right2" data-index="4">
+          <div class="phone-shell"><div class="phone-screen"><img src="foto_burung/burung5.jpeg" alt="Burung Aketajawe 5" loading="lazy" /></div></div>
+        </div>
+      </div>
+    </div>
+    <div style="display:flex;align-items:center;justify-content:center;gap:24px;width:100%;margin-top:48px;">
+      <button class="carousel-btn" id="carouselPrev"><svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path d="M15 19l-7-7 7-7"/></svg></button>
+      <div class="carousel-dots" id="carouselDots"></div>
+      <button class="carousel-btn" id="carouselNext"><svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path d="M9 5l7 7-7 7"/></svg></button>
+    </div>
+  </section>
+
+  <!-- ── PROGRAM UTAMA ── -->
+  <section class="features-section" id="features">
+    <div class="container">
+      <div class="features-header">
+        <div class="section-label reveal">Program Utama</div>
+        <h2 class="section-title reveal reveal-delay-1">Menjaga <em>Warisan</em><br>Alam Maluku Utara</h2>
+        <p class="section-sub reveal reveal-delay-2">Melalui tiga pilar utama pengelolaan taman nasional untuk keberlanjutan ekosistem dan kesejahteraan masyarakat.</p>
+      </div>
+      <div class="feature-row">
+        <div class="feature-content reveal">
+          <div class="feature-number">01 — Perlindungan</div>
+          <h3 class="feature-title">Menjaga Keutuhan Kawasan</h3>
+          <p class="feature-desc">Patroli rutin dan pengamanan kawasan dari gangguan hutan untuk memastikan ekosistem tetap terjaga dari ancaman ilegal.</p>
+          <div class="feature-checklist">
+            <div class="feature-check"><div class="check-icon">✓</div><span>Patroli SMART Monitoring</span></div>
+            <div class="feature-check"><div class="check-icon">✓</div><span>Pencegahan Kebakaran Hutan</span></div>
+            <div class="feature-check"><div class="check-icon">✓</div><span>Penegakan Hukum Lingkungan</span></div>
+          </div>
+        </div>
+        <div class="feature-visual reveal reveal-delay-1">
+          <div class="feature-visual-inner">
+            <div class="fv-row">
+              <div class="fv-card">
+                <div class="fv-card-label">Luas Terlindungi</div>
+                <div class="fv-card-val">100%</div>
+                <div class="fv-card-bar"><div class="fv-card-bar-fill" style="width:100%"></div></div>
+              </div>
+              <div class="fv-card">
+                <div class="fv-card-label">Personel Lapangan</div>
+                <div class="fv-card-val">84 Orang</div>
+                <div class="fv-card-bar"><div class="fv-card-bar-fill" style="width:84%"></div></div>
+              </div>
+            </div>
+            <div class="fv-card">
+              <div class="fv-card-label">Aktivitas Terbaru</div>
+              <div class="fv-list">
+                <div class="fv-list-item"><span>Patroli Blok Lolobata</span><span class="fv-pill green">Selesai</span></div>
+                <div class="fv-list-item"><span>Pemasangan Pal Batas</span><span class="fv-pill blue">Berjalan</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="feature-row reverse">
+        <div class="feature-content reveal">
+          <div class="feature-number">02 — Pengawetan</div>
+          <h3 class="feature-title">Pelestarian Spesies<br><em>Endemik</em></h3>
+          <p class="feature-desc">Penelitian dan pemantauan populasi satwa kunci seperti Burung Bidadari Halmahera dan Kakatua Putih.</p>
+          <div class="feature-checklist">
+            <div class="feature-check"><div class="check-icon">✓</div><span>Monitoring Satwa Prioritas</span></div>
+            <div class="feature-check"><div class="check-icon">✓</div><span>Restorasi Ekosistem Hutan</span></div>
+            <div class="feature-check"><div class="check-icon">✓</div><span>Inventarisasi Flora Langka</span></div>
+          </div>
+        </div>
+        <div class="feature-visual reveal reveal-delay-1">
+          <div class="feature-visual-inner">
+            <div class="fv-card">
+              <div class="fv-card-label">Spesies Dipantau</div>
+              <div class="fv-list">
+                <div class="fv-list-item"><span>Bidadari Halmahera</span><span class="fv-pill green">Stabil</span></div>
+                <div class="fv-list-item"><span>Kakatua Putih</span><span class="fv-pill green">Meningkat</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── 6. STATS ── -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-card reveal">
+          <div class="stat-rule"></div>
+          <div class="stat-value"><span class="stat-num" data-target="211">0</span><span class="stat-suffix">+</span></div>
+          <div class="stat-label">Jenis Burung</div>
+          <div class="stat-sublabel">Habitat bagi spesies endemik</div>
+        </div>
+        <div class="stat-card reveal reveal-delay-1">
+          <div class="stat-rule"></div>
+          <div class="stat-value"><span class="stat-num" data-target="167">0</span><span class="stat-suffix">k</span></div>
+          <div class="stat-label">Hektar Kawasan</div>
+          <div class="stat-sublabel">Hutan hujan tropis murni</div>
+        </div>
+        <div class="stat-card reveal reveal-delay-2">
+          <div class="stat-rule"></div>
+          <div class="stat-value"><span class="stat-num" data-target="24">0</span></div>
+          <div class="stat-label">Spesies Endemik</div>
+          <div class="stat-sublabel">Halmahera & Maluku Utara</div>
+        </div>
+        <div class="stat-card reveal reveal-delay-3">
+          <div class="stat-rule"></div>
+          <div class="stat-value"><span class="stat-num" data-target="100">0</span><span class="stat-suffix">+</span></div>
+          <div class="stat-label">Desa Penyangga</div>
+          <div class="stat-sublabel">Pemberdayaan masyarakat</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── 7. LAYANAN ── -->
+  <section class="pricing-section" id="pricing">
+    <div class="container">
+      <div class="pricing-header reveal">
+        <div class="section-label">Layanan & Perizinan</div>
+        <h2 class="section-title">Akses Kawasan & <em>Perizinan</em></h2>
+        <p class="section-sub">Prosedur resmi untuk memasuki kawasan sesuai peraturan yang berlaku.</p>
+      </div>
+
+      <div class="pricing-info reveal reveal-delay-3">
+        <div class="pricing-info-content">
+          <p>Setiap individu, lembaga, maupun korporasi yang akan melakukan aktivitas di dalam kawasan konservasi wajib memiliki izin resmi berupa Surat Izin Masuk Kawasan Konservasi (SIMAKSI) atau izin terkait lainnya yang sah. Seluruh prosedur dan legalitas perizinan di kawasan ini dilaksanakan berdasarkan landasan hukum yang berlaku, antara lain:</p>
+          <ul class="pricing-info-list">
+            <li><i class="fas fa-gavel"></i><span>Peraturan Menteri Kehutanan RI Nomor P.38/Menhut-II/2014 tentang Tata Cara Masuk Kawasan Suaka Alam dan Kawasan Pelestarian Alam.</span></li>
+            <li><i class="fas fa-gavel"></i><span>Peraturan Direktur Jenderal Perlindungan Hutan dan Konservasi Alam (PHKA) Nomor P.7/IV-SET/2011 tentang Petunjuk Teknis Pemberian Surat Izin Masuk Kawasan Suaka Alam dan Kawasan Pelestarian Alam.</span></li>
+            <li><i class="fas fa-gavel"></i><span>Peraturan Pemerintah (PP) Nomor 36 Tahun 2024 mengenai jenis dan tarif atas Penerimaan Negara Bukan Pajak (PNBP) yang berlaku pada Kementerian Lingkungan Hidup dan Kehutanan.</span></li>
+          </ul>
+          <p>Secara spesifik, jenis perizinan dan aktivitas yang diatur dibagi ke dalam tiga kategori utama berikut:</p>
+        </div>
+      </div>
+
+      <div class="pricing-grid">
+        <!-- 1. IZIN BERKEGIATAN -->
+        <div class="pricing-card reveal">
+          <div class="pricing-tier">IZIN BERKEGIATAN (REGULER)</div>
+          <p class="pricing-desc">Izin ini ditujukan bagi pengunjung umum yang ingin melakukan aktivitas rekreasi atau kegiatan terbatas di dalam kawasan.</p>
+          <div class="pricing-divider"></div>
+          <div class="pricing-features">
+            <div class="pricing-feature"><span>✓ Izin Masuk Kawasan: Akses masuk standar untuk menikmati area pemanfaatan.</span></div>
+            <div class="pricing-feature"><span>✓ Izin Berkemah (Camping): Izin tinggal sementara di lokasi camping ground resmi.</span></div>
+          </div>
+          <a href="#" class="pricing-cta">Hubungi Kami</a>
+        </div>
+
+        <!-- 2. SIMAKSI -->
+        <div class="pricing-card featured reveal reveal-delay-1">
+          <div class="pricing-badge">Khusus</div>
+          <div class="pricing-tier">SIMAKSI</div>
+          <p class="pricing-desc">SIMAKSI bersifat khusus untuk aktivitas non-reguler dengan tujuan strategis, ilmiah, maupun dokumentasi jurnalistik.</p>
+          <div class="pricing-divider"></div>
+          <div class="pricing-features">
+            <div class="pricing-feature"><span>✓ Kegiatan Ekspedisi: Penjelajahan, pemetaan, atau misi khusus lainnya.</span></div>
+            <div class="pricing-feature"><span>✓ Penelitian & Akademik: Aktivitas ilmiah, PKL, dan Magang mahasiswa/dosen.</span></div>
+            <div class="pricing-feature"><span>✓ Film & Fotografi Khusus: Produksi visual komersial maupun dokumenter.</span></div>
+            <div class="pricing-feature"><span>✓ Aktivitas Jurnalistik: Peliputan berita dan pengumpulan materi informasi resmi.</span></div>
+          </div>
+          <a href="#" class="pricing-cta">Hubungi Kami</a>
+        </div>
+
+        <!-- 3. IZIN KOMERSIL -->
+        <div class="pricing-card reveal reveal-delay-2">
+          <div class="pricing-tier">IZIN KOMERSIL</div>
+          <p class="pricing-desc">Wajib bagi pihak yang memanfaatkan aset visual untuk kepentingan komersial serta penggunaan perangkat udara.</p>
+          <div class="pricing-divider"></div>
+          <div class="pricing-features">
+            <div class="pricing-feature"><span>✓ Videografi Komersial: Video iklan, proyek film layar lebar, atau konten berbayar.</span></div>
+            <div class="pricing-feature"><span>✓ Fotografi Komersial: Foto produk, pre-wedding, atau industri kreatif bernilai ekonomi.</span></div>
+            <div class="pricing-feature"><span>✓ Penggunaan Drone (UAV): Izin khusus demi keamanan, privasi satwa, dan ekosistem.</span></div>
+          </div>
+          <a href="#" class="pricing-cta">Hubungi Kami</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── 8. TESTIMONIALS ── -->
+  <section class="testimonials-section" id="testimonials">
+    <div class="container">
+      <div class="testimonials-header">
+        <div class="section-label reveal">Cerita Pengunjung</div>
+        <h2 class="section-title reveal reveal-delay-1">Pengalaman di <em>Aketajawe</em></h2>
+        <p class="section-sub reveal reveal-delay-2">Apa kata mereka yang telah menjelajahi keajaiban alam Halmahera.</p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card tall reveal">
+          <div class="testimonial-stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <p class="testimonial-quote">"Melihat Burung Bidadari menari di habitat aslinya adalah pengalaman sekali seumur hidup. Petugas Balai sangat membantu dan berpengetahuan luas tentang flora dan fauna di sini."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">AD</div>
+            <div>
+              <div class="author-name">Andi Dermawan</div>
+              <div class="author-role">Wildlife Photographer</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal reveal-delay-1">
+          <div class="testimonial-stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <p class="testimonial-quote">"Tracking di hutan Aketajawe memberikan ketenangan yang luar biasa. Hutan hujan Maluku Utara benar-benar permata tersembunyi."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">RM</div>
+            <div>
+              <div class="author-name">Rina Mahendra</div>
+              <div class="author-role">Travel Blogger</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── 9. FAQ ── -->
+  <section class="faq-section" id="faq">
+    <div class="container">
+      <div class="faq-inner">
+        <div class="faq-sidebar reveal">
+          <div class="section-label">FAQ</div>
+          <h2 class="section-title">Pertanyaan Umum</h2>
+          <p class="section-sub">Informasi dasar mengenai kunjungan dan tata tertib di Taman Nasional.</p>
+        </div>
+        <div class="faq-list reveal reveal-delay-1">
+          <div class="faq-item">
+            <div class="faq-question">Kapan waktu terbaik untuk berkunjung?<div class="faq-icon">+</div></div>
+            <div class="faq-answer">Waktu terbaik adalah saat musim kemarau antara bulan Juni hingga September untuk pengamatan burung dan tracking.</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">Bagaimana cara menuju ke lokasi?<div class="faq-icon">+</div></div>
+            <div class="faq-answer">Pintu masuk utama berada di Sofifi, Maluku Utara. Anda bisa menempuh perjalanan darat dari Pelabuhan Sofifi menuju Desa Penyangga terdekat.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── LOKASI ── -->
+  <section class="location-section" id="location">
+    <div class="container">
+      <div class="location-header">
+        <div class="section-label reveal">Lokasi Kantor</div>
+        <h2 class="section-title reveal reveal-delay-1">Kunjungi <em>Kantor</em> Balai</h2>
+        <p class="section-sub reveal reveal-delay-2">Pusat informasi dan administrasi pengelolaan Taman Nasional Aketajawe Lolobata di Ibu Kota Sofifi.</p>
+      </div>
+      <div class="location-grid">
+        <div class="map-container reveal">
+          <div class="map-frame">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.106487547144!2d127.57393817454807!3d0.737467662995968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x329cbf167019d05f%3A0xefd355974dbc667e!2sKantor%20Balai%20Taman%20Nasional%20Aketajawe%20Lolobata!5e0!3m2!1sid!2sid!4v1717317200000!5m2!1sid!2sid" 
+              width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <div class="map-corner-top-left"></div>
+            <div class="map-corner-bottom-right"></div>
+          </div>
+          <div class="map-scanner"></div>
+        </div>
+        <div class="location-info reveal reveal-delay-1">
+          <div class="info-card">
+            <div class="info-item">
+              <div class="info-icon">📍</div>
+              <div class="info-text">
+                <strong>Alamat Utama</strong>
+                <p>Jl. Trans Halmahera, Desa Bukit Baru, Kec. Oba, Kota Tidore Kepulauan (Sofifi), Maluku Utara.</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">🕒</div>
+              <div class="info-text">
+                <strong>Jam Operasional</strong>
+                <p>Senin — Jumat: 08:00 - 16:30 WIT<br>Sabtu — Minggu: Tutup</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">📞</div>
+              <div class="info-text">
+                <strong>Kontak Resmi</strong>
+                <p>Email: btn.aketajawelolobata@kehutanan.go.id<br>Telp: (0853) 42258008</p>
+              </div>
+            </div>
+          </div>
+          <div class="location-status">
+            <div class="status-indicator">
+              <div class="status-dot pulse"></div>
+              <span>Sistem Aktif</span>
+            </div>
+            <a href="https://www.google.com/maps/place/Kantor+Balai+Taman+Nasional+Aketajawe+Lolobata/@0.7374623,127.5765131,859m/data=!3m1!1e3!4m6!3m5!1s0x329cbf167019d05f:0xefd355974dbc667e!8m2!3d0.7374623!4d127.5765131!16s%2Fg%2F11cnc9zntp" target="_blank" class="btn-map-action">Buka di Google Maps ↗</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── 10. CTA ── -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-inner reveal">
+        <div class="cta-content">
+          <div class="cta-label">✦ Mari Berkontribusi</div>
+          <h2 class="cta-title">Jadilah Bagian dari<br><em>Pelestarian Alam</em></h2>
+          <p class="cta-sub">Kunjungi dengan bijak, lestarikan dengan hati. Alam Halmahera adalah milik kita bersama.</p>
+        </div>
+        <div class="cta-actions">
+          <a href="#" class="btn-cta-primary">Daftar Kunjungan <span>→</span></a>
+          <a href="#" class="btn-cta-ghost">Donasi Konservasi</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── 11. FOOTER ── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="nav-logo">Aketajawe<span> Lolobata</span></a>
+          <p class="footer-brand-desc">Balai Taman Nasional Aketajawe Lolobata. Melindungi masa depan alam Maluku Utara melalui konservasi berkelanjutan.</p>
+        </div>
+        <div>
+          <div class="footer-col-label">Tautan Cepat</div>
+          <div class="footer-links">
+            <a href="#features">Profil Balai</a>
+            <a href="#pricing">Izin Masuk</a>
+            <a href="#testimonials">Wisata Alam</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-col-label">Kontak</div>
+          <div class="footer-links">
+            <p>Jl. Trans Halmahera, Sofifi</p>
+            <p>Maluku Utara, Indonesia</p>
+            <p>Email: info@aketajawe.id</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-copy">© 2026 Balai TN Aketajawe Lolobata</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ── MUSIC PLAYER ── -->
+  <div class="music-player-container">
+    <button id="musicToggle" class="music-toggle-btn" aria-label="Toggle Music">
+      <div class="music-bars">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <span class="music-text">►</span>
+    </button>
+  </div>
+  <audio id="bgMusic" src="sound_effect/bg-music.mp3" loop preload="auto"></audio>
+
+  <!-- ── ZAPIER CHATBOT LINK ── -->
+  <div class="zapier-chat-widget">
+    <a href="https://bang-ajalo.zapier.app/chat" target="_blank" class="zapier-chat-launcher" id="zapierChatLauncher" aria-label="Chat Bang Ajalo">
+      <i class="fas fa-comment"></i>
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
